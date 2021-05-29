@@ -15,20 +15,19 @@ const user2: {name: string} = {
     name: 'nusrat',
 }
 
-//using interface we can do the upper code in more simpler way, we dont have to write the
-// type of the two objects user1 and user2 multiple times:
+//using interface we can do the upper code in more simpler way, we dont have to write the property type of the two objects multiple times:
 
-interface User{
+interface UserInterface{
     name: string,
-    age?: number
+    age?: number // using ? as age is not mandatory
 }
 
-const user3: User = {
+const user3: UserInterface = {
     name: 'eka',
     age: 25,
 }
 
-const user4: User = {
+const user4: UserInterface = {
     name: 'nusrat',
 }
 
