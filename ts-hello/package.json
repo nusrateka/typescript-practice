@@ -1,0 +1,8 @@
+{
+  "name": "ts-hello",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
