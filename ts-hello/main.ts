@@ -31,8 +31,9 @@ const user4: UserInterface = {
     name: 'nusrat',
 }
 
-
-
+//Unions ( | )
+let pageNumber: string | number = 1;
+let errorMessage : string | null = null;
 
 let message;
 message = 'abc';
