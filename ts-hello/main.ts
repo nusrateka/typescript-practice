@@ -6,10 +6,34 @@ enum Color {
 let backgroundColor = Color.Blue;
 
 
-const user = {
+const user1: {name: string, age: number} = {
     name: 'eka',
-    age: 20,
+    age: 25,
 }
+
+const user2: {name: string} = {
+    name: 'nusrat',
+}
+
+//using interface we can do the upper code in more simpler way, we dont have to write the
+// type of the two objects user1 and user2 multiple times:
+
+interface User{
+    name: string,
+    age?: number
+}
+
+const user3: User = {
+    name: 'eka',
+    age: 25,
+}
+
+const user4: User = {
+    name: 'nusrat',
+}
+
+
+
 
 let message;
 message = 'abc';
